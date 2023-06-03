@@ -1,0 +1,60 @@
+A51 MACRO ASSEMBLER  PROGRAM4_A                                                           04/10/2023 00:02:03 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\program4_a.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE program4_a.asm SET(SMALL) DEBUG PRINT(.\Listings\program4_a.lst) OBJECT
+                      (.\Objects\program4_a.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 0000H
+0000 758920            2             MOV TMOD,#20H
+0003 759850            3             MOV SCON,#50H
+0006 758DFD            4             MOV TH1,#0FDH
+0009 D28E              5         SETB TR1
+000B 75994C            6     Again:MOV SBUF,#'L'
+000E 3099FD            7             HERE1:JNB TI,HERE1
+0011 C299              8                       CLR TI
+0013 759941            9                       MOV SBUF,#'A'
+0016 3099FD           10             HERE2:JNB TI,HERE2
+0019 C299             11                       CLR TI
+001B 759942           12                       MOV SBUF,#'B'
+001E 3099FD           13             HERE3:JNB TI,HERE3
+0021 C299             14                       CLR TI
+0023 3098FD           15             HERE4:JNB RI,HERE4
+0026 859990           16                       MOV P1,SBUF
+0029 C298             17                       CLR RI
+002B 3098FD           18             HERE5:JNB RI,HERE5
+002E 859990           19                       MOV P1,SBUF
+0031 C298             20                       CLR RI
+0033 80D6             21                       SJMP Again
+                      22                       END
+A51 MACRO ASSEMBLER  PROGRAM4_A                                                           04/10/2023 00:02:03 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+AGAIN. . . . . . .  C ADDR   000BH   A   
+HERE1. . . . . . .  C ADDR   000EH   A   
+HERE2. . . . . . .  C ADDR   0016H   A   
+HERE3. . . . . . .  C ADDR   001EH   A   
+HERE4. . . . . . .  C ADDR   0023H   A   
+HERE5. . . . . . .  C ADDR   002BH   A   
+P1 . . . . . . . .  D ADDR   0090H   A   
+RI . . . . . . . .  B ADDR   0098H.0 A   
+SBUF . . . . . . .  D ADDR   0099H   A   
+SCON . . . . . . .  D ADDR   0098H   A   
+TH1. . . . . . . .  D ADDR   008DH   A   
+TI . . . . . . . .  B ADDR   0098H.1 A   
+TMOD . . . . . . .  D ADDR   0089H   A   
+TR1. . . . . . . .  B ADDR   0088H.6 A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

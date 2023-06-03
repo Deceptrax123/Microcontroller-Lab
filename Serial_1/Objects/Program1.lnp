@@ -1,0 +1,3 @@
+".\Objects\program4_a.obj" 
+TO ".\Objects\Program1" 
+PRINT(".\Listings\Program1.m51") RAMSIZE(256) 

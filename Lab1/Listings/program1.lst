@@ -1,0 +1,45 @@
+A51 MACRO ASSEMBLER  PROGRAM1                                                             02/22/2023 20:11:15 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\program1.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE program1.asm SET(SMALL) DEBUG PRINT(.\Listings\program1.lst) OBJECT(.\O
+                      bjects\program1.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+                       1     
+0000                   2     ORG 0000H 
+0000 7840              3     MOV R0,#40H
+0002 E6                4     MOV A, @R0
+0003 FA                5     MOV R2,A
+0004 1A                6     DEC R2
+0005 08                7     INC R0
+0006 86F0              8     MOV B,@R0
+0008 08                9     INC R0
+0009 B5F002           10     BACK: CJNE A,B,LOOP
+000C 8004             11     JMP LOOP1
+000E 4002             12     LOOP: JC LOOP1
+0010 F5F0             13     MOV B,A
+0012 08               14     LOOP1: INC R0
+0013 DAF4             15     DJNZ R2,BACK
+0015 85F060           16     MOV 60H,B
+                      17     END
+A51 MACRO ASSEMBLER  PROGRAM1                                                             02/22/2023 20:11:15 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+B. . . . . . . . .  D ADDR   00F0H   A   
+BACK . . . . . . .  C ADDR   0009H   A   
+LOOP . . . . . . .  C ADDR   000EH   A   
+LOOP1. . . . . . .  C ADDR   0012H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

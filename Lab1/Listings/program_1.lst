@@ -1,0 +1,1571 @@
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+NO OBJECT MODULE REQUESTED
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE program_1.uvproj SET(SMALL) DEBUG PRINT(.\Listings\program_1.lst) OBJEC
+                      T(.\Objects\program_1.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+                       1     <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+*** _________________________^
+*** ERROR #A9 IN 1 (program_1.uvproj, LINE -3): SYNTAX ERROR
+                       2     <Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_proj.xsd">
+*** _________________________^
+*** __________________________________^
+*** ________________________________________________________________________________________^
+*** ERROR #A9 IN 2 (program_1.uvproj, LINE 2): SYNTAX ERROR
+*** ERROR #A7 IN 2 (program_1.uvproj, LINE 2): LABEL NOT PERMITTED
+*** ERROR #A7 IN 2 (program_1.uvproj, LINE 2): LABEL NOT PERMITTED
+                       3     
+                       4       <SchemaVersion>1.1</SchemaVersion>
+*** ___________________________^
+*** ERROR #A9 IN 4 (program_1.uvproj, LINE 4): SYNTAX ERROR
+                       5     
+                       6       <Header>### uVision Project, (C) Keil Software</Header>
+*** ___________________________^
+*** ERROR #A9 IN 6 (program_1.uvproj, LINE 6): SYNTAX ERROR
+                       7     
+                       8       <Targets>
+*** ___________________________^
+*** ERROR #A9 IN 8 (program_1.uvproj, LINE 8): SYNTAX ERROR
+                       9         <Target>
+*** _____________________________^
+*** ERROR #A9 IN 9 (program_1.uvproj, LINE 9): SYNTAX ERROR
+                      10           <TargetName>Target 1</TargetName>
+*** _______________________________^
+*** ERROR #A9 IN 10 (program_1.uvproj, LINE 10): SYNTAX ERROR
+                      11           <ToolsetNumber>0x0</ToolsetNumber>
+*** _______________________________^
+*** ERROR #A9 IN 11 (program_1.uvproj, LINE 11): SYNTAX ERROR
+                      12           <ToolsetName>MCS-51</ToolsetName>
+*** _______________________________^
+*** ERROR #A9 IN 12 (program_1.uvproj, LINE 12): SYNTAX ERROR
+                      13           <uAC6>0</uAC6>
+*** _______________________________^
+*** ERROR #A9 IN 13 (program_1.uvproj, LINE 13): SYNTAX ERROR
+                      14           <TargetOption>
+*** _______________________________^
+*** ERROR #A9 IN 14 (program_1.uvproj, LINE 14): SYNTAX ERROR
+                      15             <TargetCommonOption>
+*** _________________________________^
+*** ERROR #A9 IN 15 (program_1.uvproj, LINE 15): SYNTAX ERROR
+                      16               <Device>AT89C51ED2</Device>
+*** ___________________________________^
+*** ERROR #A9 IN 16 (program_1.uvproj, LINE 16): SYNTAX ERROR
+                      17               <Vendor>Microchip</Vendor>
+*** ___________________________________^
+*** ERROR #A9 IN 17 (program_1.uvproj, LINE 17): SYNTAX ERROR
+                      18               <Cpu>IRAM(0-0xFF) IROM(0-0xFFFF) XRAM (0-0x6FF) CLOCK(33000000) MODP2</Cpu>
+*** ___________________________________^
+*** ERROR #A9 IN 18 (program_1.uvproj, LINE 18): SYNTAX ERROR
+                      19               <FlashUtilSpec>"batchisp" (-device $D -hardware RS232 -port COM1 -baudrate 19200 -operation MEMORY FLASH LOADBUFFER %H PROGRAM)</FlashUtilSpec>
+*** ___________________________________^
+*** ERROR #A9 IN 19 (program_1.uvproj, LINE 19): SYNTAX ERROR
+                      20               <StartupFile>"LIB\STARTUP.A51" ("Standard 8051 Startup Code")</StartupFile>
+*** ___________________________________^
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE     2
+
+*** ERROR #A9 IN 20 (program_1.uvproj, LINE 20): SYNTAX ERROR
+                      21               <FlashDriverDll></FlashDriverDll>
+*** ___________________________________^
+*** ERROR #A9 IN 21 (program_1.uvproj, LINE 21): SYNTAX ERROR
+                      22               <DeviceId>3599</DeviceId>
+*** ___________________________________^
+*** ERROR #A9 IN 22 (program_1.uvproj, LINE 22): SYNTAX ERROR
+                      23               <RegisterFile>at89c51xd2.h</RegisterFile>
+*** ___________________________________^
+*** ERROR #A9 IN 23 (program_1.uvproj, LINE 23): SYNTAX ERROR
+                      24               <MemoryEnv></MemoryEnv>
+*** ___________________________________^
+*** ERROR #A9 IN 24 (program_1.uvproj, LINE 24): SYNTAX ERROR
+                      25               <Cmp></Cmp>
+*** ___________________________________^
+*** ERROR #A9 IN 25 (program_1.uvproj, LINE 25): SYNTAX ERROR
+                      26               <Asm></Asm>
+*** ___________________________________^
+*** ERROR #A9 IN 26 (program_1.uvproj, LINE 26): SYNTAX ERROR
+                      27               <Linker></Linker>
+*** ___________________________________^
+*** ERROR #A9 IN 27 (program_1.uvproj, LINE 27): SYNTAX ERROR
+                      28               <OHString></OHString>
+*** ___________________________________^
+*** ERROR #A9 IN 28 (program_1.uvproj, LINE 28): SYNTAX ERROR
+                      29               <InfinionOptionDll></InfinionOptionDll>
+*** ___________________________________^
+*** ERROR #A9 IN 29 (program_1.uvproj, LINE 29): SYNTAX ERROR
+                      30               <SLE66CMisc></SLE66CMisc>
+*** ___________________________________^
+*** ERROR #A9 IN 30 (program_1.uvproj, LINE 30): SYNTAX ERROR
+                      31               <SLE66AMisc></SLE66AMisc>
+*** ___________________________________^
+*** ERROR #A9 IN 31 (program_1.uvproj, LINE 31): SYNTAX ERROR
+                      32               <SLE66LinkerMisc></SLE66LinkerMisc>
+*** ___________________________________^
+*** ERROR #A9 IN 32 (program_1.uvproj, LINE 32): SYNTAX ERROR
+                      33               <SFDFile></SFDFile>
+*** ___________________________________^
+*** ERROR #A9 IN 33 (program_1.uvproj, LINE 33): SYNTAX ERROR
+                      34               <bCustSvd>0</bCustSvd>
+*** ___________________________________^
+*** ERROR #A9 IN 34 (program_1.uvproj, LINE 34): SYNTAX ERROR
+                      35               <UseEnv>0</UseEnv>
+*** ___________________________________^
+*** ERROR #A9 IN 35 (program_1.uvproj, LINE 35): SYNTAX ERROR
+                      36               <BinPath></BinPath>
+*** ___________________________________^
+*** ERROR #A9 IN 36 (program_1.uvproj, LINE 36): SYNTAX ERROR
+                      37               <IncludePath></IncludePath>
+*** ___________________________________^
+*** ERROR #A9 IN 37 (program_1.uvproj, LINE 37): SYNTAX ERROR
+                      38               <LibPath></LibPath>
+*** ___________________________________^
+*** ERROR #A9 IN 38 (program_1.uvproj, LINE 38): SYNTAX ERROR
+                      39               <RegisterFilePath>Atmel\</RegisterFilePath>
+*** ___________________________________^
+*** __________________________________________________________^
+*** ERROR #A9 IN 39 (program_1.uvproj, LINE 39): SYNTAX ERROR
+*** ERROR #A3 IN 39 (program_1.uvproj, LINE 39): ILLEGAL CHARACTER
+                      40               <DBRegisterFilePath>Atmel\</DBRegisterFilePath>
+*** ___________________________________^
+*** ____________________________________________________________^
+*** ERROR #A9 IN 40 (program_1.uvproj, LINE 40): SYNTAX ERROR
+*** ERROR #A3 IN 40 (program_1.uvproj, LINE 40): ILLEGAL CHARACTER
+                      41               <TargetStatus>
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE     3
+
+*** ___________________________________^
+*** ERROR #A9 IN 41 (program_1.uvproj, LINE 41): SYNTAX ERROR
+                      42                 <Error>0</Error>
+*** _____________________________________^
+*** ERROR #A9 IN 42 (program_1.uvproj, LINE 42): SYNTAX ERROR
+                      43                 <ExitCodeStop>0</ExitCodeStop>
+*** _____________________________________^
+*** ERROR #A9 IN 43 (program_1.uvproj, LINE 43): SYNTAX ERROR
+                      44                 <ButtonStop>0</ButtonStop>
+*** _____________________________________^
+*** ERROR #A9 IN 44 (program_1.uvproj, LINE 44): SYNTAX ERROR
+                      45                 <NotGenerated>0</NotGenerated>
+*** _____________________________________^
+*** ERROR #A9 IN 45 (program_1.uvproj, LINE 45): SYNTAX ERROR
+                      46                 <InvalidFlash>1</InvalidFlash>
+*** _____________________________________^
+*** ERROR #A9 IN 46 (program_1.uvproj, LINE 46): SYNTAX ERROR
+                      47               </TargetStatus>
+*** ___________________________________^
+*** ERROR #A9 IN 47 (program_1.uvproj, LINE 47): SYNTAX ERROR
+                      48               <OutputDirectory>.\Objects\</OutputDirectory>
+*** ___________________________________^
+*** _____________________________________________________^
+*** _____________________________________________________________^
+*** ERROR #A9 IN 48 (program_1.uvproj, LINE 48): SYNTAX ERROR
+*** ERROR #A3 IN 48 (program_1.uvproj, LINE 48): ILLEGAL CHARACTER
+*** ERROR #A3 IN 48 (program_1.uvproj, LINE 48): ILLEGAL CHARACTER
+                      49               <OutputName>program_1</OutputName>
+*** ___________________________________^
+*** ERROR #A9 IN 49 (program_1.uvproj, LINE 49): SYNTAX ERROR
+                      50               <CreateExecutable>1</CreateExecutable>
+*** ___________________________________^
+*** ERROR #A9 IN 50 (program_1.uvproj, LINE 50): SYNTAX ERROR
+                      51               <CreateLib>0</CreateLib>
+*** ___________________________________^
+*** ERROR #A9 IN 51 (program_1.uvproj, LINE 51): SYNTAX ERROR
+                      52               <CreateHexFile>1</CreateHexFile>
+*** ___________________________________^
+*** ERROR #A9 IN 52 (program_1.uvproj, LINE 52): SYNTAX ERROR
+                      53               <DebugInformation>1</DebugInformation>
+*** ___________________________________^
+*** ERROR #A9 IN 53 (program_1.uvproj, LINE 53): SYNTAX ERROR
+                      54               <BrowseInformation>1</BrowseInformation>
+*** ___________________________________^
+*** ERROR #A9 IN 54 (program_1.uvproj, LINE 54): SYNTAX ERROR
+                      55               <ListingPath>.\Listings\</ListingPath>
+*** ___________________________________^
+*** _________________________________________________^
+*** __________________________________________________________^
+*** ERROR #A9 IN 55 (program_1.uvproj, LINE 55): SYNTAX ERROR
+*** ERROR #A3 IN 55 (program_1.uvproj, LINE 55): ILLEGAL CHARACTER
+*** ERROR #A3 IN 55 (program_1.uvproj, LINE 55): ILLEGAL CHARACTER
+                      56               <HexFormatSelection>0</HexFormatSelection>
+*** ___________________________________^
+*** ERROR #A9 IN 56 (program_1.uvproj, LINE 56): SYNTAX ERROR
+                      57               <Merge32K>0</Merge32K>
+*** ___________________________________^
+*** ERROR #A9 IN 57 (program_1.uvproj, LINE 57): SYNTAX ERROR
+                      58               <CreateBatchFile>0</CreateBatchFile>
+*** ___________________________________^
+*** ERROR #A9 IN 58 (program_1.uvproj, LINE 58): SYNTAX ERROR
+                      59               <BeforeCompile>
+*** ___________________________________^
+*** ERROR #A9 IN 59 (program_1.uvproj, LINE 59): SYNTAX ERROR
+                      60                 <RunUserProg1>0</RunUserProg1>
+*** _____________________________________^
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE     4
+
+*** ERROR #A9 IN 60 (program_1.uvproj, LINE 60): SYNTAX ERROR
+                      61                 <RunUserProg2>0</RunUserProg2>
+*** _____________________________________^
+*** ERROR #A9 IN 61 (program_1.uvproj, LINE 61): SYNTAX ERROR
+                      62                 <UserProg1Name></UserProg1Name>
+*** _____________________________________^
+*** ERROR #A9 IN 62 (program_1.uvproj, LINE 62): SYNTAX ERROR
+                      63                 <UserProg2Name></UserProg2Name>
+*** _____________________________________^
+*** ERROR #A9 IN 63 (program_1.uvproj, LINE 63): SYNTAX ERROR
+                      64                 <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
+*** _____________________________________^
+*** ERROR #A9 IN 64 (program_1.uvproj, LINE 64): SYNTAX ERROR
+                      65                 <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
+*** _____________________________________^
+*** ERROR #A9 IN 65 (program_1.uvproj, LINE 65): SYNTAX ERROR
+                      66                 <nStopU1X>0</nStopU1X>
+*** _____________________________________^
+*** ERROR #A9 IN 66 (program_1.uvproj, LINE 66): SYNTAX ERROR
+                      67                 <nStopU2X>0</nStopU2X>
+*** _____________________________________^
+*** ERROR #A9 IN 67 (program_1.uvproj, LINE 67): SYNTAX ERROR
+                      68               </BeforeCompile>
+*** ___________________________________^
+*** ERROR #A9 IN 68 (program_1.uvproj, LINE 68): SYNTAX ERROR
+                      69               <BeforeMake>
+*** ___________________________________^
+*** ERROR #A9 IN 69 (program_1.uvproj, LINE 69): SYNTAX ERROR
+                      70                 <RunUserProg1>0</RunUserProg1>
+*** _____________________________________^
+*** ERROR #A9 IN 70 (program_1.uvproj, LINE 70): SYNTAX ERROR
+                      71                 <RunUserProg2>0</RunUserProg2>
+*** _____________________________________^
+*** ERROR #A9 IN 71 (program_1.uvproj, LINE 71): SYNTAX ERROR
+                      72                 <UserProg1Name></UserProg1Name>
+*** _____________________________________^
+*** ERROR #A9 IN 72 (program_1.uvproj, LINE 72): SYNTAX ERROR
+                      73                 <UserProg2Name></UserProg2Name>
+*** _____________________________________^
+*** ERROR #A9 IN 73 (program_1.uvproj, LINE 73): SYNTAX ERROR
+                      74                 <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
+*** _____________________________________^
+*** ERROR #A9 IN 74 (program_1.uvproj, LINE 74): SYNTAX ERROR
+                      75                 <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
+*** _____________________________________^
+*** ERROR #A9 IN 75 (program_1.uvproj, LINE 75): SYNTAX ERROR
+                      76                 <nStopB1X>0</nStopB1X>
+*** _____________________________________^
+*** ERROR #A9 IN 76 (program_1.uvproj, LINE 76): SYNTAX ERROR
+                      77                 <nStopB2X>0</nStopB2X>
+*** _____________________________________^
+*** ERROR #A9 IN 77 (program_1.uvproj, LINE 77): SYNTAX ERROR
+                      78               </BeforeMake>
+*** ___________________________________^
+*** ERROR #A9 IN 78 (program_1.uvproj, LINE 78): SYNTAX ERROR
+                      79               <AfterMake>
+*** ___________________________________^
+*** ERROR #A9 IN 79 (program_1.uvproj, LINE 79): SYNTAX ERROR
+                      80                 <RunUserProg1>0</RunUserProg1>
+*** _____________________________________^
+*** ERROR #A9 IN 80 (program_1.uvproj, LINE 80): SYNTAX ERROR
+                      81                 <RunUserProg2>0</RunUserProg2>
+*** _____________________________________^
+*** ERROR #A9 IN 81 (program_1.uvproj, LINE 81): SYNTAX ERROR
+                      82                 <UserProg1Name></UserProg1Name>
+*** _____________________________________^
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE     5
+
+*** ERROR #A9 IN 82 (program_1.uvproj, LINE 82): SYNTAX ERROR
+                      83                 <UserProg2Name></UserProg2Name>
+*** _____________________________________^
+*** ERROR #A9 IN 83 (program_1.uvproj, LINE 83): SYNTAX ERROR
+                      84                 <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
+*** _____________________________________^
+*** ERROR #A9 IN 84 (program_1.uvproj, LINE 84): SYNTAX ERROR
+                      85                 <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
+*** _____________________________________^
+*** ERROR #A9 IN 85 (program_1.uvproj, LINE 85): SYNTAX ERROR
+                      86                 <nStopA1X>0</nStopA1X>
+*** _____________________________________^
+*** ERROR #A9 IN 86 (program_1.uvproj, LINE 86): SYNTAX ERROR
+                      87                 <nStopA2X>0</nStopA2X>
+*** _____________________________________^
+*** ERROR #A9 IN 87 (program_1.uvproj, LINE 87): SYNTAX ERROR
+                      88               </AfterMake>
+*** ___________________________________^
+*** ERROR #A9 IN 88 (program_1.uvproj, LINE 88): SYNTAX ERROR
+                      89               <SelectedForBatchBuild>0</SelectedForBatchBuild>
+*** ___________________________________^
+*** ERROR #A9 IN 89 (program_1.uvproj, LINE 89): SYNTAX ERROR
+                      90               <SVCSIdString></SVCSIdString>
+*** ___________________________________^
+*** ERROR #A9 IN 90 (program_1.uvproj, LINE 90): SYNTAX ERROR
+                      91             </TargetCommonOption>
+*** _________________________________^
+*** ERROR #A9 IN 91 (program_1.uvproj, LINE 91): SYNTAX ERROR
+                      92             <CommonProperty>
+*** _________________________________^
+*** ERROR #A9 IN 92 (program_1.uvproj, LINE 92): SYNTAX ERROR
+                      93               <UseCPPCompiler>0</UseCPPCompiler>
+*** ___________________________________^
+*** ERROR #A9 IN 93 (program_1.uvproj, LINE 93): SYNTAX ERROR
+                      94               <RVCTCodeConst>0</RVCTCodeConst>
+*** ___________________________________^
+*** ERROR #A9 IN 94 (program_1.uvproj, LINE 94): SYNTAX ERROR
+                      95               <RVCTZI>0</RVCTZI>
+*** ___________________________________^
+*** ERROR #A9 IN 95 (program_1.uvproj, LINE 95): SYNTAX ERROR
+                      96               <RVCTOtherData>0</RVCTOtherData>
+*** ___________________________________^
+*** ERROR #A9 IN 96 (program_1.uvproj, LINE 96): SYNTAX ERROR
+                      97               <ModuleSelection>0</ModuleSelection>
+*** ___________________________________^
+*** ERROR #A9 IN 97 (program_1.uvproj, LINE 97): SYNTAX ERROR
+                      98               <IncludeInBuild>1</IncludeInBuild>
+*** ___________________________________^
+*** ERROR #A9 IN 98 (program_1.uvproj, LINE 98): SYNTAX ERROR
+                      99               <AlwaysBuild>0</AlwaysBuild>
+*** ___________________________________^
+*** ERROR #A9 IN 99 (program_1.uvproj, LINE 99): SYNTAX ERROR
+                     100               <GenerateAssemblyFile>0</GenerateAssemblyFile>
+*** ___________________________________^
+*** ERROR #A9 IN 100 (program_1.uvproj, LINE 100): SYNTAX ERROR
+                     101               <AssembleAssemblyFile>0</AssembleAssemblyFile>
+*** ___________________________________^
+*** ERROR #A9 IN 101 (program_1.uvproj, LINE 101): SYNTAX ERROR
+                     102               <PublicsOnly>0</PublicsOnly>
+*** ___________________________________^
+*** ERROR #A9 IN 102 (program_1.uvproj, LINE 102): SYNTAX ERROR
+                     103               <StopOnExitCode>3</StopOnExitCode>
+*** ___________________________________^
+*** ERROR #A9 IN 103 (program_1.uvproj, LINE 103): SYNTAX ERROR
+                     104               <CustomArgument></CustomArgument>
+*** ___________________________________^
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE     6
+
+*** ERROR #A9 IN 104 (program_1.uvproj, LINE 104): SYNTAX ERROR
+                     105               <IncludeLibraryModules></IncludeLibraryModules>
+*** ___________________________________^
+*** ERROR #A9 IN 105 (program_1.uvproj, LINE 105): SYNTAX ERROR
+                     106               <ComprImg>1</ComprImg>
+*** ___________________________________^
+*** ERROR #A9 IN 106 (program_1.uvproj, LINE 106): SYNTAX ERROR
+                     107               <BankNo>65535</BankNo>
+*** ___________________________________^
+*** ERROR #A9 IN 107 (program_1.uvproj, LINE 107): SYNTAX ERROR
+                     108             </CommonProperty>
+*** _________________________________^
+*** ERROR #A9 IN 108 (program_1.uvproj, LINE 108): SYNTAX ERROR
+                     109             <DllOption>
+*** _________________________________^
+*** ERROR #A9 IN 109 (program_1.uvproj, LINE 109): SYNTAX ERROR
+                     110               <SimDllName>S8051.DLL</SimDllName>
+*** ___________________________________^
+*** ERROR #A9 IN 110 (program_1.uvproj, LINE 110): SYNTAX ERROR
+                     111               <SimDllArguments></SimDllArguments>
+*** ___________________________________^
+*** ERROR #A9 IN 111 (program_1.uvproj, LINE 111): SYNTAX ERROR
+                     112               <SimDlgDll>DP51.DLL</SimDlgDll>
+*** ___________________________________^
+*** ERROR #A9 IN 112 (program_1.uvproj, LINE 112): SYNTAX ERROR
+                     113               <SimDlgDllArguments>-pATED2</SimDlgDllArguments>
+*** ___________________________________^
+*** ERROR #A9 IN 113 (program_1.uvproj, LINE 113): SYNTAX ERROR
+                     114               <TargetDllName>S8051.DLL</TargetDllName>
+*** ___________________________________^
+*** ERROR #A9 IN 114 (program_1.uvproj, LINE 114): SYNTAX ERROR
+                     115               <TargetDllArguments></TargetDllArguments>
+*** ___________________________________^
+*** ERROR #A9 IN 115 (program_1.uvproj, LINE 115): SYNTAX ERROR
+                     116               <TargetDlgDll>TP51.DLL</TargetDlgDll>
+*** ___________________________________^
+*** ERROR #A9 IN 116 (program_1.uvproj, LINE 116): SYNTAX ERROR
+                     117               <TargetDlgDllArguments>-pATED2</TargetDlgDllArguments>
+*** ___________________________________^
+*** ERROR #A9 IN 117 (program_1.uvproj, LINE 117): SYNTAX ERROR
+                     118             </DllOption>
+*** _________________________________^
+*** ERROR #A9 IN 118 (program_1.uvproj, LINE 118): SYNTAX ERROR
+                     119             <DebugOption>
+*** _________________________________^
+*** ERROR #A9 IN 119 (program_1.uvproj, LINE 119): SYNTAX ERROR
+                     120               <OPTHX>
+*** ___________________________________^
+*** ERROR #A9 IN 120 (program_1.uvproj, LINE 120): SYNTAX ERROR
+                     121                 <HexSelection>0</HexSelection>
+*** _____________________________________^
+*** ERROR #A9 IN 121 (program_1.uvproj, LINE 121): SYNTAX ERROR
+                     122                 <HexRangeLowAddress>0</HexRangeLowAddress>
+*** _____________________________________^
+*** ERROR #A9 IN 122 (program_1.uvproj, LINE 122): SYNTAX ERROR
+                     123                 <HexRangeHighAddress>0</HexRangeHighAddress>
+*** _____________________________________^
+*** ERROR #A9 IN 123 (program_1.uvproj, LINE 123): SYNTAX ERROR
+                     124                 <HexOffset>0</HexOffset>
+*** _____________________________________^
+*** ERROR #A9 IN 124 (program_1.uvproj, LINE 124): SYNTAX ERROR
+                     125                 <Oh166RecLen>16</Oh166RecLen>
+*** _____________________________________^
+*** ERROR #A9 IN 125 (program_1.uvproj, LINE 125): SYNTAX ERROR
+                     126               </OPTHX>
+*** ___________________________________^
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE     7
+
+*** ERROR #A9 IN 126 (program_1.uvproj, LINE 126): SYNTAX ERROR
+                     127               <Simulator>
+*** ___________________________________^
+*** ERROR #A9 IN 127 (program_1.uvproj, LINE 127): SYNTAX ERROR
+                     128                 <UseSimulator>1</UseSimulator>
+*** _____________________________________^
+*** ERROR #A9 IN 128 (program_1.uvproj, LINE 128): SYNTAX ERROR
+                     129                 <LoadApplicationAtStartup>1</LoadApplicationAtStartup>
+*** _____________________________________^
+*** ERROR #A9 IN 129 (program_1.uvproj, LINE 129): SYNTAX ERROR
+                     130                 <RunToMain>1</RunToMain>
+*** _____________________________________^
+*** ERROR #A9 IN 130 (program_1.uvproj, LINE 130): SYNTAX ERROR
+                     131                 <RestoreBreakpoints>1</RestoreBreakpoints>
+*** _____________________________________^
+*** ERROR #A9 IN 131 (program_1.uvproj, LINE 131): SYNTAX ERROR
+                     132                 <RestoreWatchpoints>1</RestoreWatchpoints>
+*** _____________________________________^
+*** ERROR #A9 IN 132 (program_1.uvproj, LINE 132): SYNTAX ERROR
+                     133                 <RestoreMemoryDisplay>1</RestoreMemoryDisplay>
+*** _____________________________________^
+*** ERROR #A9 IN 133 (program_1.uvproj, LINE 133): SYNTAX ERROR
+                     134                 <RestoreFunctions>1</RestoreFunctions>
+*** _____________________________________^
+*** ERROR #A9 IN 134 (program_1.uvproj, LINE 134): SYNTAX ERROR
+                     135                 <RestoreToolbox>1</RestoreToolbox>
+*** _____________________________________^
+*** ERROR #A9 IN 135 (program_1.uvproj, LINE 135): SYNTAX ERROR
+                     136                 <LimitSpeedToRealTime>0</LimitSpeedToRealTime>
+*** _____________________________________^
+*** ERROR #A9 IN 136 (program_1.uvproj, LINE 136): SYNTAX ERROR
+                     137                 <RestoreSysVw>1</RestoreSysVw>
+*** _____________________________________^
+*** ERROR #A9 IN 137 (program_1.uvproj, LINE 137): SYNTAX ERROR
+                     138               </Simulator>
+*** ___________________________________^
+*** ERROR #A9 IN 138 (program_1.uvproj, LINE 138): SYNTAX ERROR
+                     139               <Target>
+*** ___________________________________^
+*** ERROR #A9 IN 139 (program_1.uvproj, LINE 139): SYNTAX ERROR
+                     140                 <UseTarget>0</UseTarget>
+*** _____________________________________^
+*** ERROR #A9 IN 140 (program_1.uvproj, LINE 140): SYNTAX ERROR
+                     141                 <LoadApplicationAtStartup>1</LoadApplicationAtStartup>
+*** _____________________________________^
+*** ERROR #A9 IN 141 (program_1.uvproj, LINE 141): SYNTAX ERROR
+                     142                 <RunToMain>0</RunToMain>
+*** _____________________________________^
+*** ERROR #A9 IN 142 (program_1.uvproj, LINE 142): SYNTAX ERROR
+                     143                 <RestoreBreakpoints>1</RestoreBreakpoints>
+*** _____________________________________^
+*** ERROR #A9 IN 143 (program_1.uvproj, LINE 143): SYNTAX ERROR
+                     144                 <RestoreWatchpoints>1</RestoreWatchpoints>
+*** _____________________________________^
+*** ERROR #A9 IN 144 (program_1.uvproj, LINE 144): SYNTAX ERROR
+                     145                 <RestoreMemoryDisplay>1</RestoreMemoryDisplay>
+*** _____________________________________^
+*** ERROR #A9 IN 145 (program_1.uvproj, LINE 145): SYNTAX ERROR
+                     146                 <RestoreFunctions>0</RestoreFunctions>
+*** _____________________________________^
+*** ERROR #A9 IN 146 (program_1.uvproj, LINE 146): SYNTAX ERROR
+                     147                 <RestoreToolbox>1</RestoreToolbox>
+*** _____________________________________^
+*** ERROR #A9 IN 147 (program_1.uvproj, LINE 147): SYNTAX ERROR
+                     148                 <RestoreTracepoints>1</RestoreTracepoints>
+*** _____________________________________^
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE     8
+
+*** ERROR #A9 IN 148 (program_1.uvproj, LINE 148): SYNTAX ERROR
+                     149                 <RestoreSysVw>1</RestoreSysVw>
+*** _____________________________________^
+*** ERROR #A9 IN 149 (program_1.uvproj, LINE 149): SYNTAX ERROR
+                     150               </Target>
+*** ___________________________________^
+*** ERROR #A9 IN 150 (program_1.uvproj, LINE 150): SYNTAX ERROR
+                     151               <RunDebugAfterBuild>0</RunDebugAfterBuild>
+*** ___________________________________^
+*** ERROR #A9 IN 151 (program_1.uvproj, LINE 151): SYNTAX ERROR
+                     152               <TargetSelection>-1</TargetSelection>
+*** ___________________________________^
+*** ERROR #A9 IN 152 (program_1.uvproj, LINE 152): SYNTAX ERROR
+                     153               <SimDlls>
+*** ___________________________________^
+*** ERROR #A9 IN 153 (program_1.uvproj, LINE 153): SYNTAX ERROR
+                     154                 <CpuDll></CpuDll>
+*** _____________________________________^
+*** ERROR #A9 IN 154 (program_1.uvproj, LINE 154): SYNTAX ERROR
+                     155                 <CpuDllArguments></CpuDllArguments>
+*** _____________________________________^
+*** ERROR #A9 IN 155 (program_1.uvproj, LINE 155): SYNTAX ERROR
+                     156                 <PeripheralDll></PeripheralDll>
+*** _____________________________________^
+*** ERROR #A9 IN 156 (program_1.uvproj, LINE 156): SYNTAX ERROR
+                     157                 <PeripheralDllArguments></PeripheralDllArguments>
+*** _____________________________________^
+*** ERROR #A9 IN 157 (program_1.uvproj, LINE 157): SYNTAX ERROR
+                     158                 <InitializationFile></InitializationFile>
+*** _____________________________________^
+*** ERROR #A9 IN 158 (program_1.uvproj, LINE 158): SYNTAX ERROR
+                     159               </SimDlls>
+*** ___________________________________^
+*** ERROR #A9 IN 159 (program_1.uvproj, LINE 159): SYNTAX ERROR
+                     160               <TargetDlls>
+*** ___________________________________^
+*** ERROR #A9 IN 160 (program_1.uvproj, LINE 160): SYNTAX ERROR
+                     161                 <CpuDll></CpuDll>
+*** _____________________________________^
+*** ERROR #A9 IN 161 (program_1.uvproj, LINE 161): SYNTAX ERROR
+                     162                 <CpuDllArguments></CpuDllArguments>
+*** _____________________________________^
+*** ERROR #A9 IN 162 (program_1.uvproj, LINE 162): SYNTAX ERROR
+                     163                 <PeripheralDll></PeripheralDll>
+*** _____________________________________^
+*** ERROR #A9 IN 163 (program_1.uvproj, LINE 163): SYNTAX ERROR
+                     164                 <PeripheralDllArguments></PeripheralDllArguments>
+*** _____________________________________^
+*** ERROR #A9 IN 164 (program_1.uvproj, LINE 164): SYNTAX ERROR
+                     165                 <InitializationFile></InitializationFile>
+*** _____________________________________^
+*** ERROR #A9 IN 165 (program_1.uvproj, LINE 165): SYNTAX ERROR
+                     166                 <Driver></Driver>
+*** _____________________________________^
+*** ERROR #A9 IN 166 (program_1.uvproj, LINE 166): SYNTAX ERROR
+                     167               </TargetDlls>
+*** ___________________________________^
+*** ERROR #A9 IN 167 (program_1.uvproj, LINE 167): SYNTAX ERROR
+                     168             </DebugOption>
+*** _________________________________^
+*** ERROR #A9 IN 168 (program_1.uvproj, LINE 168): SYNTAX ERROR
+                     169             <Utilities>
+*** _________________________________^
+*** ERROR #A9 IN 169 (program_1.uvproj, LINE 169): SYNTAX ERROR
+                     170               <Flash1>
+*** ___________________________________^
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE     9
+
+*** ERROR #A9 IN 170 (program_1.uvproj, LINE 170): SYNTAX ERROR
+                     171                 <UseTargetDll>0</UseTargetDll>
+*** _____________________________________^
+*** ERROR #A9 IN 171 (program_1.uvproj, LINE 171): SYNTAX ERROR
+                     172                 <UseExternalTool>1</UseExternalTool>
+*** _____________________________________^
+*** ERROR #A9 IN 172 (program_1.uvproj, LINE 172): SYNTAX ERROR
+                     173                 <RunIndependent>0</RunIndependent>
+*** _____________________________________^
+*** ERROR #A9 IN 173 (program_1.uvproj, LINE 173): SYNTAX ERROR
+                     174                 <UpdateFlashBeforeDebugging>0</UpdateFlashBeforeDebugging>
+*** _____________________________________^
+*** ERROR #A9 IN 174 (program_1.uvproj, LINE 174): SYNTAX ERROR
+                     175                 <Capability>0</Capability>
+*** _____________________________________^
+*** ERROR #A9 IN 175 (program_1.uvproj, LINE 175): SYNTAX ERROR
+                     176                 <DriverSelection>-1</DriverSelection>
+*** _____________________________________^
+*** ERROR #A9 IN 176 (program_1.uvproj, LINE 176): SYNTAX ERROR
+                     177               </Flash1>
+*** ___________________________________^
+*** ERROR #A9 IN 177 (program_1.uvproj, LINE 177): SYNTAX ERROR
+                     178               <bUseTDR>0</bUseTDR>
+*** ___________________________________^
+*** ERROR #A9 IN 178 (program_1.uvproj, LINE 178): SYNTAX ERROR
+                     179               <Flash2></Flash2>
+*** ___________________________________^
+*** ERROR #A9 IN 179 (program_1.uvproj, LINE 179): SYNTAX ERROR
+                     180               <Flash3>"batchisp" (-device $D -hardware RS232 -port COM1 -baudrate 19200 -operation MEMORY FLASH LOADBUFFER %H PROGRAM)</Flash3>
+*** ___________________________________^
+*** ERROR #A9 IN 180 (program_1.uvproj, LINE 180): SYNTAX ERROR
+                     181               <Flash4></Flash4>
+*** ___________________________________^
+*** ERROR #A9 IN 181 (program_1.uvproj, LINE 181): SYNTAX ERROR
+                     182               <pFcarmOut></pFcarmOut>
+*** ___________________________________^
+*** ERROR #A9 IN 182 (program_1.uvproj, LINE 182): SYNTAX ERROR
+                     183               <pFcarmGrp></pFcarmGrp>
+*** ___________________________________^
+*** ERROR #A9 IN 183 (program_1.uvproj, LINE 183): SYNTAX ERROR
+                     184               <pFcArmRoot></pFcArmRoot>
+*** ___________________________________^
+*** ERROR #A9 IN 184 (program_1.uvproj, LINE 184): SYNTAX ERROR
+                     185               <FcArmLst>0</FcArmLst>
+*** ___________________________________^
+*** ERROR #A9 IN 185 (program_1.uvproj, LINE 185): SYNTAX ERROR
+                     186             </Utilities>
+*** _________________________________^
+*** ERROR #A9 IN 186 (program_1.uvproj, LINE 186): SYNTAX ERROR
+                     187             <Target51>
+*** _________________________________^
+*** ERROR #A9 IN 187 (program_1.uvproj, LINE 187): SYNTAX ERROR
+                     188               <Target51Misc>
+*** ___________________________________^
+*** ERROR #A9 IN 188 (program_1.uvproj, LINE 188): SYNTAX ERROR
+                     189                 <MemoryModel>0</MemoryModel>
+*** _____________________________________^
+*** ERROR #A9 IN 189 (program_1.uvproj, LINE 189): SYNTAX ERROR
+                     190                 <RTOS>0</RTOS>
+*** _____________________________________^
+*** ERROR #A9 IN 190 (program_1.uvproj, LINE 190): SYNTAX ERROR
+                     191                 <RomSize>2</RomSize>
+*** _____________________________________^
+*** ERROR #A9 IN 191 (program_1.uvproj, LINE 191): SYNTAX ERROR
+                     192                 <DataHold>0</DataHold>
+*** _____________________________________^
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE    10
+
+*** ERROR #A9 IN 192 (program_1.uvproj, LINE 192): SYNTAX ERROR
+                     193                 <XDataHold>0</XDataHold>
+*** _____________________________________^
+*** ERROR #A9 IN 193 (program_1.uvproj, LINE 193): SYNTAX ERROR
+                     194                 <UseOnchipRom>0</UseOnchipRom>
+*** _____________________________________^
+*** ERROR #A9 IN 194 (program_1.uvproj, LINE 194): SYNTAX ERROR
+                     195                 <UseOnchipArithmetic>0</UseOnchipArithmetic>
+*** _____________________________________^
+*** ERROR #A9 IN 195 (program_1.uvproj, LINE 195): SYNTAX ERROR
+                     196                 <UseMultipleDPTR>0</UseMultipleDPTR>
+*** _____________________________________^
+*** ERROR #A9 IN 196 (program_1.uvproj, LINE 196): SYNTAX ERROR
+                     197                 <UseOnchipXram>0</UseOnchipXram>
+*** _____________________________________^
+*** ERROR #A9 IN 197 (program_1.uvproj, LINE 197): SYNTAX ERROR
+                     198                 <HadIRAM>1</HadIRAM>
+*** _____________________________________^
+*** ERROR #A9 IN 198 (program_1.uvproj, LINE 198): SYNTAX ERROR
+                     199                 <HadXRAM>1</HadXRAM>
+*** _____________________________________^
+*** ERROR #A9 IN 199 (program_1.uvproj, LINE 199): SYNTAX ERROR
+                     200                 <HadIROM>1</HadIROM>
+*** _____________________________________^
+*** ERROR #A9 IN 200 (program_1.uvproj, LINE 200): SYNTAX ERROR
+                     201                 <Moda2>0</Moda2>
+*** _____________________________________^
+*** ERROR #A9 IN 201 (program_1.uvproj, LINE 201): SYNTAX ERROR
+                     202                 <Moddp2>0</Moddp2>
+*** _____________________________________^
+*** ERROR #A9 IN 202 (program_1.uvproj, LINE 202): SYNTAX ERROR
+                     203                 <Modp2>1</Modp2>
+*** _____________________________________^
+*** ERROR #A9 IN 203 (program_1.uvproj, LINE 203): SYNTAX ERROR
+                     204                 <Mod517dp>0</Mod517dp>
+*** _____________________________________^
+*** ERROR #A9 IN 204 (program_1.uvproj, LINE 204): SYNTAX ERROR
+                     205                 <Mod517au>0</Mod517au>
+*** _____________________________________^
+*** ERROR #A9 IN 205 (program_1.uvproj, LINE 205): SYNTAX ERROR
+                     206                 <Mode2>0</Mode2>
+*** _____________________________________^
+*** ERROR #A9 IN 206 (program_1.uvproj, LINE 206): SYNTAX ERROR
+                     207                 <useCB>0</useCB>
+*** _____________________________________^
+*** ERROR #A9 IN 207 (program_1.uvproj, LINE 207): SYNTAX ERROR
+                     208                 <useXB>0</useXB>
+*** _____________________________________^
+*** ERROR #A9 IN 208 (program_1.uvproj, LINE 208): SYNTAX ERROR
+                     209                 <useL251>0</useL251>
+*** _____________________________________^
+*** ERROR #A9 IN 209 (program_1.uvproj, LINE 209): SYNTAX ERROR
+                     210                 <useA251>0</useA251>
+*** _____________________________________^
+*** ERROR #A9 IN 210 (program_1.uvproj, LINE 210): SYNTAX ERROR
+                     211                 <Mx51>0</Mx51>
+*** _____________________________________^
+*** ERROR #A9 IN 211 (program_1.uvproj, LINE 211): SYNTAX ERROR
+                     212                 <ModC812>0</ModC812>
+*** _____________________________________^
+*** ERROR #A9 IN 212 (program_1.uvproj, LINE 212): SYNTAX ERROR
+                     213                 <ModCont>0</ModCont>
+*** _____________________________________^
+*** ERROR #A9 IN 213 (program_1.uvproj, LINE 213): SYNTAX ERROR
+                     214                 <Lp51>0</Lp51>
+*** _____________________________________^
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE    11
+
+*** ERROR #A9 IN 214 (program_1.uvproj, LINE 214): SYNTAX ERROR
+                     215                 <useXBS>0</useXBS>
+*** _____________________________________^
+*** ERROR #A9 IN 215 (program_1.uvproj, LINE 215): SYNTAX ERROR
+                     216                 <ModDA>0</ModDA>
+*** _____________________________________^
+*** ERROR #A9 IN 216 (program_1.uvproj, LINE 216): SYNTAX ERROR
+                     217                 <ModAB2>0</ModAB2>
+*** _____________________________________^
+*** ERROR #A9 IN 217 (program_1.uvproj, LINE 217): SYNTAX ERROR
+                     218                 <Mx51P>0</Mx51P>
+*** _____________________________________^
+*** ERROR #A9 IN 218 (program_1.uvproj, LINE 218): SYNTAX ERROR
+                     219                 <hadXRAM2>0</hadXRAM2>
+*** _____________________________________^
+*** ERROR #A9 IN 219 (program_1.uvproj, LINE 219): SYNTAX ERROR
+                     220                 <uocXram2>0</uocXram2>
+*** _____________________________________^
+*** ERROR #A9 IN 220 (program_1.uvproj, LINE 220): SYNTAX ERROR
+                     221                 <hadXRAM3>0</hadXRAM3>
+*** _____________________________________^
+*** ERROR #A9 IN 221 (program_1.uvproj, LINE 221): SYNTAX ERROR
+                     222                 <ModC2>0</ModC2>
+*** _____________________________________^
+*** ERROR #A9 IN 222 (program_1.uvproj, LINE 222): SYNTAX ERROR
+                     223                 <ModH2>0</ModH2>
+*** _____________________________________^
+*** ERROR #A9 IN 223 (program_1.uvproj, LINE 223): SYNTAX ERROR
+                     224                 <Mdu_R515>0</Mdu_R515>
+*** _____________________________________^
+*** ERROR #A9 IN 224 (program_1.uvproj, LINE 224): SYNTAX ERROR
+                     225                 <Mdu_F120>0</Mdu_F120>
+*** _____________________________________^
+*** ERROR #A9 IN 225 (program_1.uvproj, LINE 225): SYNTAX ERROR
+                     226                 <Psoc>0</Psoc>
+*** _____________________________________^
+*** ERROR #A9 IN 226 (program_1.uvproj, LINE 226): SYNTAX ERROR
+                     227                 <hadIROM2>0</hadIROM2>
+*** _____________________________________^
+*** ERROR #A9 IN 227 (program_1.uvproj, LINE 227): SYNTAX ERROR
+                     228                 <hadIROM3>0</hadIROM3>
+*** _____________________________________^
+*** ERROR #A9 IN 228 (program_1.uvproj, LINE 228): SYNTAX ERROR
+                     229                 <ModSmx2>0</ModSmx2>
+*** _____________________________________^
+*** ERROR #A9 IN 229 (program_1.uvproj, LINE 229): SYNTAX ERROR
+                     230                 <cBanks>0</cBanks>
+*** _____________________________________^
+*** ERROR #A9 IN 230 (program_1.uvproj, LINE 230): SYNTAX ERROR
+                     231                 <xBanks>0</xBanks>
+*** _____________________________________^
+*** ERROR #A9 IN 231 (program_1.uvproj, LINE 231): SYNTAX ERROR
+                     232                 <OnChipMemories>
+*** _____________________________________^
+*** ERROR #A9 IN 232 (program_1.uvproj, LINE 232): SYNTAX ERROR
+                     233                   <RCB>
+*** _______________________________________^
+*** ERROR #A9 IN 233 (program_1.uvproj, LINE 233): SYNTAX ERROR
+                     234                     <Type>0</Type>
+*** _________________________________________^
+*** ERROR #A9 IN 234 (program_1.uvproj, LINE 234): SYNTAX ERROR
+                     235                     <StartAddress>0x0</StartAddress>
+*** _________________________________________^
+*** ERROR #A9 IN 235 (program_1.uvproj, LINE 235): SYNTAX ERROR
+                     236                     <Size>0xffff</Size>
+*** _________________________________________^
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE    12
+
+*** ERROR #A9 IN 236 (program_1.uvproj, LINE 236): SYNTAX ERROR
+                     237                   </RCB>
+*** _______________________________________^
+*** ERROR #A9 IN 237 (program_1.uvproj, LINE 237): SYNTAX ERROR
+                     238                   <RXB>
+*** _______________________________________^
+*** ERROR #A9 IN 238 (program_1.uvproj, LINE 238): SYNTAX ERROR
+                     239                     <Type>0</Type>
+*** _________________________________________^
+*** ERROR #A9 IN 239 (program_1.uvproj, LINE 239): SYNTAX ERROR
+                     240                     <StartAddress>0x0</StartAddress>
+*** _________________________________________^
+*** ERROR #A9 IN 240 (program_1.uvproj, LINE 240): SYNTAX ERROR
+                     241                     <Size>0x0</Size>
+*** _________________________________________^
+*** ERROR #A9 IN 241 (program_1.uvproj, LINE 241): SYNTAX ERROR
+                     242                   </RXB>
+*** _______________________________________^
+*** ERROR #A9 IN 242 (program_1.uvproj, LINE 242): SYNTAX ERROR
+                     243                   <Ocm1>
+*** _______________________________________^
+*** ERROR #A9 IN 243 (program_1.uvproj, LINE 243): SYNTAX ERROR
+                     244                     <Type>0</Type>
+*** _________________________________________^
+*** ERROR #A9 IN 244 (program_1.uvproj, LINE 244): SYNTAX ERROR
+                     245                     <StartAddress>0x0</StartAddress>
+*** _________________________________________^
+*** ERROR #A9 IN 245 (program_1.uvproj, LINE 245): SYNTAX ERROR
+                     246                     <Size>0x0</Size>
+*** _________________________________________^
+*** ERROR #A9 IN 246 (program_1.uvproj, LINE 246): SYNTAX ERROR
+                     247                   </Ocm1>
+*** _______________________________________^
+*** ERROR #A9 IN 247 (program_1.uvproj, LINE 247): SYNTAX ERROR
+                     248                   <Ocm2>
+*** _______________________________________^
+*** ERROR #A9 IN 248 (program_1.uvproj, LINE 248): SYNTAX ERROR
+                     249                     <Type>0</Type>
+*** _________________________________________^
+*** ERROR #A9 IN 249 (program_1.uvproj, LINE 249): SYNTAX ERROR
+                     250                     <StartAddress>0x0</StartAddress>
+*** _________________________________________^
+*** ERROR #A9 IN 250 (program_1.uvproj, LINE 250): SYNTAX ERROR
+                     251                     <Size>0x0</Size>
+*** _________________________________________^
+*** ERROR #A9 IN 251 (program_1.uvproj, LINE 251): SYNTAX ERROR
+                     252                   </Ocm2>
+*** _______________________________________^
+*** ERROR #A9 IN 252 (program_1.uvproj, LINE 252): SYNTAX ERROR
+                     253                   <Ocm3>
+*** _______________________________________^
+*** ERROR #A9 IN 253 (program_1.uvproj, LINE 253): SYNTAX ERROR
+                     254                     <Type>0</Type>
+*** _________________________________________^
+*** ERROR #A9 IN 254 (program_1.uvproj, LINE 254): SYNTAX ERROR
+                     255                     <StartAddress>0x0</StartAddress>
+*** _________________________________________^
+*** ERROR #A9 IN 255 (program_1.uvproj, LINE 255): SYNTAX ERROR
+                     256                     <Size>0x0</Size>
+*** _________________________________________^
+*** ERROR #A9 IN 256 (program_1.uvproj, LINE 256): SYNTAX ERROR
+                     257                   </Ocm3>
+*** _______________________________________^
+*** ERROR #A9 IN 257 (program_1.uvproj, LINE 257): SYNTAX ERROR
+                     258                   <Ocr1>
+*** _______________________________________^
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE    13
+
+*** ERROR #A9 IN 258 (program_1.uvproj, LINE 258): SYNTAX ERROR
+                     259                     <Type>0</Type>
+*** _________________________________________^
+*** ERROR #A9 IN 259 (program_1.uvproj, LINE 259): SYNTAX ERROR
+                     260                     <StartAddress>0x0</StartAddress>
+*** _________________________________________^
+*** ERROR #A9 IN 260 (program_1.uvproj, LINE 260): SYNTAX ERROR
+                     261                     <Size>0x0</Size>
+*** _________________________________________^
+*** ERROR #A9 IN 261 (program_1.uvproj, LINE 261): SYNTAX ERROR
+                     262                   </Ocr1>
+*** _______________________________________^
+*** ERROR #A9 IN 262 (program_1.uvproj, LINE 262): SYNTAX ERROR
+                     263                   <Ocr2>
+*** _______________________________________^
+*** ERROR #A9 IN 263 (program_1.uvproj, LINE 263): SYNTAX ERROR
+                     264                     <Type>0</Type>
+*** _________________________________________^
+*** ERROR #A9 IN 264 (program_1.uvproj, LINE 264): SYNTAX ERROR
+                     265                     <StartAddress>0x0</StartAddress>
+*** _________________________________________^
+*** ERROR #A9 IN 265 (program_1.uvproj, LINE 265): SYNTAX ERROR
+                     266                     <Size>0x0</Size>
+*** _________________________________________^
+*** ERROR #A9 IN 266 (program_1.uvproj, LINE 266): SYNTAX ERROR
+                     267                   </Ocr2>
+*** _______________________________________^
+*** ERROR #A9 IN 267 (program_1.uvproj, LINE 267): SYNTAX ERROR
+                     268                   <Ocr3>
+*** _______________________________________^
+*** ERROR #A9 IN 268 (program_1.uvproj, LINE 268): SYNTAX ERROR
+                     269                     <Type>0</Type>
+*** _________________________________________^
+*** ERROR #A9 IN 269 (program_1.uvproj, LINE 269): SYNTAX ERROR
+                     270                     <StartAddress>0x0</StartAddress>
+*** _________________________________________^
+*** ERROR #A9 IN 270 (program_1.uvproj, LINE 270): SYNTAX ERROR
+                     271                     <Size>0x0</Size>
+*** _________________________________________^
+*** ERROR #A9 IN 271 (program_1.uvproj, LINE 271): SYNTAX ERROR
+                     272                   </Ocr3>
+*** _______________________________________^
+*** ERROR #A9 IN 272 (program_1.uvproj, LINE 272): SYNTAX ERROR
+                     273                   <IRO>
+*** _______________________________________^
+*** ERROR #A9 IN 273 (program_1.uvproj, LINE 273): SYNTAX ERROR
+                     274                     <Type>1</Type>
+*** _________________________________________^
+*** ERROR #A9 IN 274 (program_1.uvproj, LINE 274): SYNTAX ERROR
+                     275                     <StartAddress>0x0</StartAddress>
+*** _________________________________________^
+*** ERROR #A9 IN 275 (program_1.uvproj, LINE 275): SYNTAX ERROR
+                     276                     <Size>0x10000</Size>
+*** _________________________________________^
+*** ERROR #A9 IN 276 (program_1.uvproj, LINE 276): SYNTAX ERROR
+                     277                   </IRO>
+*** _______________________________________^
+*** ERROR #A9 IN 277 (program_1.uvproj, LINE 277): SYNTAX ERROR
+                     278                   <IRA>
+*** _______________________________________^
+*** ERROR #A9 IN 278 (program_1.uvproj, LINE 278): SYNTAX ERROR
+                     279                     <Type>0</Type>
+*** _________________________________________^
+*** ERROR #A9 IN 279 (program_1.uvproj, LINE 279): SYNTAX ERROR
+                     280                     <StartAddress>0x0</StartAddress>
+*** _________________________________________^
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE    14
+
+*** ERROR #A9 IN 280 (program_1.uvproj, LINE 280): SYNTAX ERROR
+                     281                     <Size>0x100</Size>
+*** _________________________________________^
+*** ERROR #A9 IN 281 (program_1.uvproj, LINE 281): SYNTAX ERROR
+                     282                   </IRA>
+*** _______________________________________^
+*** ERROR #A9 IN 282 (program_1.uvproj, LINE 282): SYNTAX ERROR
+                     283                   <XRA>
+*** _______________________________________^
+*** ERROR #A9 IN 283 (program_1.uvproj, LINE 283): SYNTAX ERROR
+                     284                     <Type>0</Type>
+*** _________________________________________^
+*** ERROR #A9 IN 284 (program_1.uvproj, LINE 284): SYNTAX ERROR
+                     285                     <StartAddress>0x0</StartAddress>
+*** _________________________________________^
+*** ERROR #A9 IN 285 (program_1.uvproj, LINE 285): SYNTAX ERROR
+                     286                     <Size>0x700</Size>
+*** _________________________________________^
+*** ERROR #A9 IN 286 (program_1.uvproj, LINE 286): SYNTAX ERROR
+                     287                   </XRA>
+*** _______________________________________^
+*** ERROR #A9 IN 287 (program_1.uvproj, LINE 287): SYNTAX ERROR
+                     288                   <XRA512>
+*** _______________________________________^
+*** ERROR #A9 IN 288 (program_1.uvproj, LINE 288): SYNTAX ERROR
+                     289                     <Type>0</Type>
+*** _________________________________________^
+*** ERROR #A9 IN 289 (program_1.uvproj, LINE 289): SYNTAX ERROR
+                     290                     <StartAddress>0x0</StartAddress>
+*** _________________________________________^
+*** ERROR #A9 IN 290 (program_1.uvproj, LINE 290): SYNTAX ERROR
+                     291                     <Size>0x0</Size>
+*** _________________________________________^
+*** ERROR #A9 IN 291 (program_1.uvproj, LINE 291): SYNTAX ERROR
+                     292                   </XRA512>
+*** _______________________________________^
+*** ERROR #A9 IN 292 (program_1.uvproj, LINE 292): SYNTAX ERROR
+                     293                   <IROM512>
+*** _______________________________________^
+*** ERROR #A9 IN 293 (program_1.uvproj, LINE 293): SYNTAX ERROR
+                     294                     <Type>0</Type>
+*** _________________________________________^
+*** ERROR #A9 IN 294 (program_1.uvproj, LINE 294): SYNTAX ERROR
+                     295                     <StartAddress>0x0</StartAddress>
+*** _________________________________________^
+*** ERROR #A9 IN 295 (program_1.uvproj, LINE 295): SYNTAX ERROR
+                     296                     <Size>0x0</Size>
+*** _________________________________________^
+*** ERROR #A9 IN 296 (program_1.uvproj, LINE 296): SYNTAX ERROR
+                     297                   </IROM512>
+*** _______________________________________^
+*** ERROR #A9 IN 297 (program_1.uvproj, LINE 297): SYNTAX ERROR
+                     298                   <XRA513>
+*** _______________________________________^
+*** ERROR #A9 IN 298 (program_1.uvproj, LINE 298): SYNTAX ERROR
+                     299                     <Type>0</Type>
+*** _________________________________________^
+*** ERROR #A9 IN 299 (program_1.uvproj, LINE 299): SYNTAX ERROR
+                     300                     <StartAddress>0x0</StartAddress>
+*** _________________________________________^
+*** ERROR #A9 IN 300 (program_1.uvproj, LINE 300): SYNTAX ERROR
+                     301                     <Size>0x0</Size>
+*** _________________________________________^
+*** ERROR #A9 IN 301 (program_1.uvproj, LINE 301): SYNTAX ERROR
+                     302                   </XRA513>
+*** _______________________________________^
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE    15
+
+*** ERROR #A9 IN 302 (program_1.uvproj, LINE 302): SYNTAX ERROR
+                     303                   <IROM513>
+*** _______________________________________^
+*** ERROR #A9 IN 303 (program_1.uvproj, LINE 303): SYNTAX ERROR
+                     304                     <Type>0</Type>
+*** _________________________________________^
+*** ERROR #A9 IN 304 (program_1.uvproj, LINE 304): SYNTAX ERROR
+                     305                     <StartAddress>0x0</StartAddress>
+*** _________________________________________^
+*** ERROR #A9 IN 305 (program_1.uvproj, LINE 305): SYNTAX ERROR
+                     306                     <Size>0x0</Size>
+*** _________________________________________^
+*** ERROR #A9 IN 306 (program_1.uvproj, LINE 306): SYNTAX ERROR
+                     307                   </IROM513>
+*** _______________________________________^
+*** ERROR #A9 IN 307 (program_1.uvproj, LINE 307): SYNTAX ERROR
+                     308                 </OnChipMemories>
+*** _____________________________________^
+*** ERROR #A9 IN 308 (program_1.uvproj, LINE 308): SYNTAX ERROR
+                     309               </Target51Misc>
+*** ___________________________________^
+*** ERROR #A9 IN 309 (program_1.uvproj, LINE 309): SYNTAX ERROR
+                     310               <C51>
+*** ___________________________________^
+*** ERROR #A9 IN 310 (program_1.uvproj, LINE 310): SYNTAX ERROR
+                     311                 <RegisterColoring>0</RegisterColoring>
+*** _____________________________________^
+*** ERROR #A9 IN 311 (program_1.uvproj, LINE 311): SYNTAX ERROR
+                     312                 <VariablesInOrder>0</VariablesInOrder>
+*** _____________________________________^
+*** ERROR #A9 IN 312 (program_1.uvproj, LINE 312): SYNTAX ERROR
+                     313                 <IntegerPromotion>1</IntegerPromotion>
+*** _____________________________________^
+*** ERROR #A9 IN 313 (program_1.uvproj, LINE 313): SYNTAX ERROR
+                     314                 <uAregs>0</uAregs>
+*** _____________________________________^
+*** ERROR #A9 IN 314 (program_1.uvproj, LINE 314): SYNTAX ERROR
+                     315                 <UseInterruptVector>1</UseInterruptVector>
+*** _____________________________________^
+*** ERROR #A9 IN 315 (program_1.uvproj, LINE 315): SYNTAX ERROR
+                     316                 <Fuzzy>3</Fuzzy>
+*** _____________________________________^
+*** ERROR #A9 IN 316 (program_1.uvproj, LINE 316): SYNTAX ERROR
+                     317                 <Optimize>8</Optimize>
+*** _____________________________________^
+*** ERROR #A9 IN 317 (program_1.uvproj, LINE 317): SYNTAX ERROR
+                     318                 <WarningLevel>2</WarningLevel>
+*** _____________________________________^
+*** ERROR #A9 IN 318 (program_1.uvproj, LINE 318): SYNTAX ERROR
+                     319                 <SizeSpeed>1</SizeSpeed>
+*** _____________________________________^
+*** ERROR #A9 IN 319 (program_1.uvproj, LINE 319): SYNTAX ERROR
+                     320                 <ObjectExtend>1</ObjectExtend>
+*** _____________________________________^
+*** ERROR #A9 IN 320 (program_1.uvproj, LINE 320): SYNTAX ERROR
+                     321                 <ACallAJmp>0</ACallAJmp>
+*** _____________________________________^
+*** ERROR #A9 IN 321 (program_1.uvproj, LINE 321): SYNTAX ERROR
+                     322                 <InterruptVectorAddress>0</InterruptVectorAddress>
+*** _____________________________________^
+*** ERROR #A9 IN 322 (program_1.uvproj, LINE 322): SYNTAX ERROR
+                     323                 <VariousControls>
+*** _____________________________________^
+*** ERROR #A9 IN 323 (program_1.uvproj, LINE 323): SYNTAX ERROR
+                     324                   <MiscControls></MiscControls>
+*** _______________________________________^
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE    16
+
+*** ERROR #A9 IN 324 (program_1.uvproj, LINE 324): SYNTAX ERROR
+                     325                   <Define></Define>
+*** _______________________________________^
+*** ERROR #A9 IN 325 (program_1.uvproj, LINE 325): SYNTAX ERROR
+                     326                   <Undefine></Undefine>
+*** _______________________________________^
+*** ERROR #A9 IN 326 (program_1.uvproj, LINE 326): SYNTAX ERROR
+                     327                   <IncludePath></IncludePath>
+*** _______________________________________^
+*** ERROR #A9 IN 327 (program_1.uvproj, LINE 327): SYNTAX ERROR
+                     328                 </VariousControls>
+*** _____________________________________^
+*** ERROR #A9 IN 328 (program_1.uvproj, LINE 328): SYNTAX ERROR
+                     329               </C51>
+*** ___________________________________^
+*** ERROR #A9 IN 329 (program_1.uvproj, LINE 329): SYNTAX ERROR
+                     330               <Ax51>
+*** ___________________________________^
+*** ERROR #A9 IN 330 (program_1.uvproj, LINE 330): SYNTAX ERROR
+                     331                 <UseMpl>0</UseMpl>
+*** _____________________________________^
+*** ERROR #A9 IN 331 (program_1.uvproj, LINE 331): SYNTAX ERROR
+                     332                 <UseStandard>1</UseStandard>
+*** _____________________________________^
+*** ERROR #A9 IN 332 (program_1.uvproj, LINE 332): SYNTAX ERROR
+                     333                 <UseCase>0</UseCase>
+*** _____________________________________^
+*** ERROR #A9 IN 333 (program_1.uvproj, LINE 333): SYNTAX ERROR
+                     334                 <UseMod51>0</UseMod51>
+*** _____________________________________^
+*** ERROR #A9 IN 334 (program_1.uvproj, LINE 334): SYNTAX ERROR
+                     335                 <VariousControls>
+*** _____________________________________^
+*** ERROR #A9 IN 335 (program_1.uvproj, LINE 335): SYNTAX ERROR
+                     336                   <MiscControls></MiscControls>
+*** _______________________________________^
+*** ERROR #A9 IN 336 (program_1.uvproj, LINE 336): SYNTAX ERROR
+                     337                   <Define></Define>
+*** _______________________________________^
+*** ERROR #A9 IN 337 (program_1.uvproj, LINE 337): SYNTAX ERROR
+                     338                   <Undefine></Undefine>
+*** _______________________________________^
+*** ERROR #A9 IN 338 (program_1.uvproj, LINE 338): SYNTAX ERROR
+                     339                   <IncludePath></IncludePath>
+*** _______________________________________^
+*** ERROR #A9 IN 339 (program_1.uvproj, LINE 339): SYNTAX ERROR
+                     340                 </VariousControls>
+*** _____________________________________^
+*** ERROR #A9 IN 340 (program_1.uvproj, LINE 340): SYNTAX ERROR
+                     341               </Ax51>
+*** ___________________________________^
+*** ERROR #A9 IN 341 (program_1.uvproj, LINE 341): SYNTAX ERROR
+                     342               <Lx51>
+*** ___________________________________^
+*** ERROR #A9 IN 342 (program_1.uvproj, LINE 342): SYNTAX ERROR
+                     343                 <useFile>0</useFile>
+*** _____________________________________^
+*** ERROR #A9 IN 343 (program_1.uvproj, LINE 343): SYNTAX ERROR
+                     344                 <linkonly>0</linkonly>
+*** _____________________________________^
+*** ERROR #A9 IN 344 (program_1.uvproj, LINE 344): SYNTAX ERROR
+                     345                 <UseMemoryFromTarget>1</UseMemoryFromTarget>
+*** _____________________________________^
+*** ERROR #A9 IN 345 (program_1.uvproj, LINE 345): SYNTAX ERROR
+                     346                 <CaseSensitiveSymbols>0</CaseSensitiveSymbols>
+*** _____________________________________^
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE    17
+
+*** ERROR #A9 IN 346 (program_1.uvproj, LINE 346): SYNTAX ERROR
+                     347                 <WarningLevel>2</WarningLevel>
+*** _____________________________________^
+*** ERROR #A9 IN 347 (program_1.uvproj, LINE 347): SYNTAX ERROR
+                     348                 <DataOverlaying>1</DataOverlaying>
+*** _____________________________________^
+*** ERROR #A9 IN 348 (program_1.uvproj, LINE 348): SYNTAX ERROR
+                     349                 <OverlayString></OverlayString>
+*** _____________________________________^
+*** ERROR #A9 IN 349 (program_1.uvproj, LINE 349): SYNTAX ERROR
+                     350                 <MiscControls></MiscControls>
+*** _____________________________________^
+*** ERROR #A9 IN 350 (program_1.uvproj, LINE 350): SYNTAX ERROR
+                     351                 <DisableWarningNumbers></DisableWarningNumbers>
+*** _____________________________________^
+*** ERROR #A9 IN 351 (program_1.uvproj, LINE 351): SYNTAX ERROR
+                     352                 <LinkerCmdFile></LinkerCmdFile>
+*** _____________________________________^
+*** ERROR #A9 IN 352 (program_1.uvproj, LINE 352): SYNTAX ERROR
+                     353                 <Assign></Assign>
+*** _____________________________________^
+*** ERROR #A9 IN 353 (program_1.uvproj, LINE 353): SYNTAX ERROR
+                     354                 <ReserveString></ReserveString>
+*** _____________________________________^
+*** ERROR #A9 IN 354 (program_1.uvproj, LINE 354): SYNTAX ERROR
+                     355                 <CClasses></CClasses>
+*** _____________________________________^
+*** ERROR #A9 IN 355 (program_1.uvproj, LINE 355): SYNTAX ERROR
+                     356                 <UserClasses></UserClasses>
+*** _____________________________________^
+*** ERROR #A9 IN 356 (program_1.uvproj, LINE 356): SYNTAX ERROR
+                     357                 <CSection></CSection>
+*** _____________________________________^
+*** ERROR #A9 IN 357 (program_1.uvproj, LINE 357): SYNTAX ERROR
+                     358                 <UserSection></UserSection>
+*** _____________________________________^
+*** ERROR #A9 IN 358 (program_1.uvproj, LINE 358): SYNTAX ERROR
+                     359                 <CodeBaseAddress></CodeBaseAddress>
+*** _____________________________________^
+*** ERROR #A9 IN 359 (program_1.uvproj, LINE 359): SYNTAX ERROR
+                     360                 <XDataBaseAddress></XDataBaseAddress>
+*** _____________________________________^
+*** ERROR #A9 IN 360 (program_1.uvproj, LINE 360): SYNTAX ERROR
+                     361                 <PDataBaseAddress></PDataBaseAddress>
+*** _____________________________________^
+*** ERROR #A9 IN 361 (program_1.uvproj, LINE 361): SYNTAX ERROR
+                     362                 <BitBaseAddress></BitBaseAddress>
+*** _____________________________________^
+*** ERROR #A9 IN 362 (program_1.uvproj, LINE 362): SYNTAX ERROR
+                     363                 <DataBaseAddress></DataBaseAddress>
+*** _____________________________________^
+*** ERROR #A9 IN 363 (program_1.uvproj, LINE 363): SYNTAX ERROR
+                     364                 <IDataBaseAddress></IDataBaseAddress>
+*** _____________________________________^
+*** ERROR #A9 IN 364 (program_1.uvproj, LINE 364): SYNTAX ERROR
+                     365                 <Precede></Precede>
+*** _____________________________________^
+*** ERROR #A9 IN 365 (program_1.uvproj, LINE 365): SYNTAX ERROR
+                     366                 <Stack></Stack>
+*** _____________________________________^
+*** ERROR #A9 IN 366 (program_1.uvproj, LINE 366): SYNTAX ERROR
+                     367                 <CodeSegmentName></CodeSegmentName>
+*** _____________________________________^
+*** ERROR #A9 IN 367 (program_1.uvproj, LINE 367): SYNTAX ERROR
+                     368                 <XDataSegmentName></XDataSegmentName>
+*** _____________________________________^
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE    18
+
+*** ERROR #A9 IN 368 (program_1.uvproj, LINE 368): SYNTAX ERROR
+                     369                 <BitSegmentName></BitSegmentName>
+*** _____________________________________^
+*** ERROR #A9 IN 369 (program_1.uvproj, LINE 369): SYNTAX ERROR
+                     370                 <DataSegmentName></DataSegmentName>
+*** _____________________________________^
+*** ERROR #A9 IN 370 (program_1.uvproj, LINE 370): SYNTAX ERROR
+                     371                 <IDataSegmentName></IDataSegmentName>
+*** _____________________________________^
+*** ERROR #A9 IN 371 (program_1.uvproj, LINE 371): SYNTAX ERROR
+                     372               </Lx51>
+*** ___________________________________^
+*** ERROR #A9 IN 372 (program_1.uvproj, LINE 372): SYNTAX ERROR
+                     373             </Target51>
+*** _________________________________^
+*** ERROR #A9 IN 373 (program_1.uvproj, LINE 373): SYNTAX ERROR
+                     374           </TargetOption>
+*** _______________________________^
+*** ERROR #A9 IN 374 (program_1.uvproj, LINE 374): SYNTAX ERROR
+                     375           <Groups>
+*** _______________________________^
+*** ERROR #A9 IN 375 (program_1.uvproj, LINE 375): SYNTAX ERROR
+                     376             <Group>
+*** _________________________________^
+*** ERROR #A9 IN 376 (program_1.uvproj, LINE 376): SYNTAX ERROR
+                     377               <GroupName>Source Group 1</GroupName>
+*** ___________________________________^
+*** ERROR #A9 IN 377 (program_1.uvproj, LINE 377): SYNTAX ERROR
+                     378               <Files>
+*** ___________________________________^
+*** ERROR #A9 IN 378 (program_1.uvproj, LINE 378): SYNTAX ERROR
+                     379                 <File>
+*** _____________________________________^
+*** ERROR #A9 IN 379 (program_1.uvproj, LINE 379): SYNTAX ERROR
+                     380                   <FileName>program_1.uvproj</FileName>
+*** _______________________________________^
+*** ERROR #A9 IN 380 (program_1.uvproj, LINE 380): SYNTAX ERROR
+                     381                   <FileType>2</FileType>
+*** _______________________________________^
+*** ERROR #A9 IN 381 (program_1.uvproj, LINE 381): SYNTAX ERROR
+                     382                   <FilePath>.\program_1.uvproj</FilePath>
+*** _______________________________________^
+*** __________________________________________________^
+*** ERROR #A9 IN 382 (program_1.uvproj, LINE 382): SYNTAX ERROR
+*** ERROR #A3 IN 382 (program_1.uvproj, LINE 382): ILLEGAL CHARACTER
+                     383                 </File>
+*** _____________________________________^
+*** ERROR #A9 IN 383 (program_1.uvproj, LINE 383): SYNTAX ERROR
+                     384                 <File>
+*** _____________________________________^
+*** ERROR #A9 IN 384 (program_1.uvproj, LINE 384): SYNTAX ERROR
+                     385                   <FileName>program1.asm</FileName>
+*** _______________________________________^
+*** ERROR #A9 IN 385 (program_1.uvproj, LINE 385): SYNTAX ERROR
+                     386                   <FileType>2</FileType>
+*** _______________________________________^
+*** ERROR #A9 IN 386 (program_1.uvproj, LINE 386): SYNTAX ERROR
+                     387                   <FilePath>.\program1.asm</FilePath>
+*** _______________________________________^
+*** __________________________________________________^
+*** ERROR #A9 IN 387 (program_1.uvproj, LINE 387): SYNTAX ERROR
+*** ERROR #A3 IN 387 (program_1.uvproj, LINE 387): ILLEGAL CHARACTER
+                     388                 </File>
+*** _____________________________________^
+*** ERROR #A9 IN 388 (program_1.uvproj, LINE 388): SYNTAX ERROR
+                     389               </Files>
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE    19
+
+*** ___________________________________^
+*** ERROR #A9 IN 389 (program_1.uvproj, LINE 389): SYNTAX ERROR
+                     390             </Group>
+*** _________________________________^
+*** ERROR #A9 IN 390 (program_1.uvproj, LINE 390): SYNTAX ERROR
+                     391           </Groups>
+*** _______________________________^
+*** ERROR #A9 IN 391 (program_1.uvproj, LINE 391): SYNTAX ERROR
+                     392         </Target>
+*** _____________________________^
+*** ERROR #A9 IN 392 (program_1.uvproj, LINE 392): SYNTAX ERROR
+                     393       </Targets>
+*** ___________________________^
+*** ERROR #A9 IN 393 (program_1.uvproj, LINE 393): SYNTAX ERROR
+                     394     
+                     395     </Project>
+*** _________________________^
+*** ERROR #A9 IN 395 (program_1.uvproj, LINE 395): SYNTAX ERROR
+*** WARNING #A41 IN 395 (program_1.uvproj, LINE 395): MISSING 'END' STATEMENT
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE    20
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E                     T Y P E  V A L U E   ATTRIBUTES
+
+?. . . . . . . . . . . . .    ----   -----       
+?XML . . . . . . . . . . .    ----   -----       
+ACALLAJMP. . . . . . . . .    ----   -----       
+AFTERMAKE. . . . . . . . .    ----   -----       
+ALWAYSBUILD. . . . . . . .    ----   -----       
+ASM. . . . . . . . . . . .    ----   -----       
+ASSEMBLEASSEMBLYFILE . . .    ----   -----       
+ASSIGN . . . . . . . . . .    ----   -----       
+AT89C51ED2 . . . . . . . .    ----   -----       
+AT89C51XD2 . . . . . . . .    ----   -----       
+ATMEL. . . . . . . . . . .    ----   -----       
+AX51 . . . . . . . . . . .    ----   -----       
+BANKNO . . . . . . . . . .    ----   -----       
+BAUDRATE . . . . . . . . .    ----   -----       
+BCUSTSVD . . . . . . . . .    ----   -----       
+BEFORECOMPILE. . . . . . .    ----   -----       
+BEFOREMAKE . . . . . . . .    ----   -----       
+BINPATH. . . . . . . . . .    ----   -----       
+BITBASEADDRESS . . . . . .    ----   -----       
+BITSEGMENTNAME . . . . . .    ----   -----       
+BROWSEINFORMATION. . . . .    ----   -----       
+BUSETDR. . . . . . . . . .    ----   -----       
+BUTTONSTOP . . . . . . . .    ----   -----       
+C51. . . . . . . . . . . .    ----   -----       
+CAPABILITY . . . . . . . .    ----   -----       
+CASESENSITIVESYMBOLS . . .    ----   -----       
+CBANKS . . . . . . . . . .    ----   -----       
+CCLASSES . . . . . . . . .    ----   -----       
+CLOCK. . . . . . . . . . .    ----   -----       
+CMP. . . . . . . . . . . .    ----   -----       
+CODEBASEADDRESS. . . . . .    ----   -----       
+CODESEGMENTNAME. . . . . .    ----   -----       
+COM1 . . . . . . . . . . .    ----   -----       
+COMMONPROPERTY . . . . . .    ----   -----       
+COMPRIMG . . . . . . . . .    ----   -----       
+CPU. . . . . . . . . . . .    ----   -----       
+CPUDLL . . . . . . . . . .    ----   -----       
+CPUDLLARGUMENTS. . . . . .    ----   -----       
+CREATEBATCHFILE. . . . . .    ----   -----       
+CREATEEXECUTABLE . . . . .    ----   -----       
+CREATEHEXFILE. . . . . . .    ----   -----       
+CREATELIB. . . . . . . . .    ----   -----       
+CSECTION . . . . . . . . .    ----   -----       
+CUSTOMARGUMENT . . . . . .    ----   -----       
+D. . . . . . . . . . . . .    ----   -----       
+DATABASEADDRESS. . . . . .    ----   -----       
+DATAHOLD . . . . . . . . .    ----   -----       
+DATAOVERLAYING . . . . . .    ----   -----       
+DATASEGMENTNAME. . . . . .    ----   -----       
+DBREGISTERFILEPATH . . . .    ----   -----       
+DEBUGINFORMATION . . . . .    ----   -----       
+DEBUGOPTION. . . . . . . .    ----   -----       
+DEFINE . . . . . . . . . .    ----   -----       
+DEVICE . . . . . . . . . .    ----   -----       
+DEVICEID . . . . . . . . .    ----   -----       
+DISABLEWARNINGNUMBERS. . .    ----   -----       
+DLL. . . . . . . . . . . .    ----   -----       
+DLLOPTION. . . . . . . . .    ----   -----       
+DP51 . . . . . . . . . . .    ----   -----       
+DRIVER . . . . . . . . . .    ----   -----       
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE    21
+
+DRIVERSELECTION. . . . . .    ----   -----       
+ENCODING . . . . . . . . .    ----   -----       
+ERROR. . . . . . . . . . .    ----   -----       
+EXITCODESTOP . . . . . . .    ----   -----       
+FCARMLST . . . . . . . . .    ----   -----       
+FILE . . . . . . . . . . .    ----   -----       
+FILENAME . . . . . . . . .    ----   -----       
+FILEPATH . . . . . . . . .    ----   -----       
+FILES. . . . . . . . . . .    ----   -----       
+FILETYPE . . . . . . . . .    ----   -----       
+FLASH. . . . . . . . . . .    ----   -----       
+FLASH1 . . . . . . . . . .    ----   -----       
+FLASH2 . . . . . . . . . .    ----   -----       
+FLASH3 . . . . . . . . . .    ----   -----       
+FLASH4 . . . . . . . . . .    ----   -----       
+FLASHDRIVERDLL . . . . . .    ----   -----       
+FLASHUTILSPEC. . . . . . .    ----   -----       
+FUZZY. . . . . . . . . . .    ----   -----       
+GENERATEASSEMBLYFILE . . .    ----   -----       
+GROUP. . . . . . . . . . .    ----   -----       
+GROUPNAME. . . . . . . . .    ----   -----       
+GROUPS . . . . . . . . . .    ----   -----       
+H. . . . . . . . . . . . .    ----   -----       
+HADIRAM. . . . . . . . . .    ----   -----       
+HADIROM. . . . . . . . . .    ----   -----       
+HADIROM2 . . . . . . . . .    ----   -----       
+HADIROM3 . . . . . . . . .    ----   -----       
+HADXRAM. . . . . . . . . .    ----   -----       
+HADXRAM2 . . . . . . . . .    ----   -----       
+HADXRAM3 . . . . . . . . .    ----   -----       
+HARDWARE . . . . . . . . .    ----   -----       
+HEADER . . . . . . . . . .    ----   -----       
+HEXFORMATSELECTION . . . .    ----   -----       
+HEXOFFSET. . . . . . . . .    ----   -----       
+HEXRANGEHIGHADDRESS. . . .    ----   -----       
+HEXRANGELOWADDRESS . . . .    ----   -----       
+HEXSELECTION . . . . . . .    ----   -----       
+IDATABASEADDRESS . . . . .    ----   -----       
+IDATASEGMENTNAME . . . . .    ----   -----       
+INCLUDEINBUILD . . . . . .    ----   -----       
+INCLUDELIBRARYMODULES. . .    ----   -----       
+INCLUDEPATH. . . . . . . .    ----   -----       
+INFINIONOPTIONDLL. . . . .    ----   -----       
+INITIALIZATIONFILE . . . .    ----   -----       
+INTEGERPROMOTION . . . . .    ----   -----       
+INTERRUPTVECTORADDRESS . .    ----   -----       
+INVALIDFLASH . . . . . . .    ----   -----       
+IRA. . . . . . . . . . . .    ----   -----       
+IRAM . . . . . . . . . . .    ----   -----       
+IRO. . . . . . . . . . . .    ----   -----       
+IROM . . . . . . . . . . .    ----   -----       
+IROM512. . . . . . . . . .    ----   -----       
+IROM513. . . . . . . . . .    ----   -----       
+KEIL . . . . . . . . . . .    ----   -----       
+LIBPATH. . . . . . . . . .    ----   -----       
+LIMITSPEEDTOREALTIME . . .    ----   -----       
+LINKER . . . . . . . . . .    ----   -----       
+LINKERCMDFILE. . . . . . .    ----   -----       
+LINKONLY . . . . . . . . .    ----   -----       
+LISTINGPATH. . . . . . . .    ----   -----       
+LISTINGS . . . . . . . . .    ----   -----       
+LOADAPPLICATIONATSTARTUP .    ----   -----       
+LOADBUFFER . . . . . . . .    ----   -----       
+LP51 . . . . . . . . . . .    ----   -----       
+LX51 . . . . . . . . . . .    ----   -----       
+MCS. . . . . . . . . . . .    ----   -----       
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE    22
+
+MDU_F120 . . . . . . . . .    ----   -----       
+MDU_R515 . . . . . . . . .    ----   -----       
+MEMORY . . . . . . . . . .    ----   -----       
+MEMORYENV. . . . . . . . .    ----   -----       
+MEMORYMODEL. . . . . . . .    ----   -----       
+MERGE32K . . . . . . . . .    ----   -----       
+MICROCHIP. . . . . . . . .    ----   -----       
+MISCCONTROLS . . . . . . .    ----   -----       
+MOD517AU . . . . . . . . .    ----   -----       
+MOD517DP . . . . . . . . .    ----   -----       
+MODA2. . . . . . . . . . .    ----   -----       
+MODAB2 . . . . . . . . . .    ----   -----       
+MODC2. . . . . . . . . . .    ----   -----       
+MODC812. . . . . . . . . .    ----   -----       
+MODCONT. . . . . . . . . .    ----   -----       
+MODDA. . . . . . . . . . .    ----   -----       
+MODDP2 . . . . . . . . . .    ----   -----       
+MODE2. . . . . . . . . . .    ----   -----       
+MODH2. . . . . . . . . . .    ----   -----       
+MODP2. . . . . . . . . . .    ----   -----       
+MODSMX2. . . . . . . . . .    ----   -----       
+MODULESELECTION. . . . . .    ----   -----       
+MX51 . . . . . . . . . . .    ----   -----       
+MX51P. . . . . . . . . . .    ----   -----       
+NONAMESPACESCHEMALOCATION.    ----   -----       
+NOTGENERATED . . . . . . .    ----   -----       
+NSTOPA1X . . . . . . . . .    ----   -----       
+NSTOPA2X . . . . . . . . .    ----   -----       
+NSTOPB1X . . . . . . . . .    ----   -----       
+NSTOPB2X . . . . . . . . .    ----   -----       
+NSTOPU1X . . . . . . . . .    ----   -----       
+NSTOPU2X . . . . . . . . .    ----   -----       
+OBJECTEXTEND . . . . . . .    ----   -----       
+OBJECTS. . . . . . . . . .    ----   -----       
+OCM1 . . . . . . . . . . .    ----   -----       
+OCM2 . . . . . . . . . . .    ----   -----       
+OCM3 . . . . . . . . . . .    ----   -----       
+OCR1 . . . . . . . . . . .    ----   -----       
+OCR2 . . . . . . . . . . .    ----   -----       
+OCR3 . . . . . . . . . . .    ----   -----       
+OH166RECLEN. . . . . . . .    ----   -----       
+OHSTRING . . . . . . . . .    ----   -----       
+ONCHIPMEMORIES . . . . . .    ----   -----       
+OPERATION. . . . . . . . .    ----   -----       
+OPTHX. . . . . . . . . . .    ----   -----       
+OPTIMIZE . . . . . . . . .    ----   -----       
+OUTPUTDIRECTORY. . . . . .    ----   -----       
+OUTPUTNAME . . . . . . . .    ----   -----       
+OVERLAYSTRING. . . . . . .    ----   -----       
+PATED2 . . . . . . . . . .    ----   -----       
+PDATABASEADDRESS . . . . .    ----   -----       
+PERIPHERALDLL. . . . . . .    ----   -----       
+PERIPHERALDLLARGUMENTS . .    ----   -----       
+PFCARMGRP. . . . . . . . .    ----   -----       
+PFCARMOUT. . . . . . . . .    ----   -----       
+PFCARMROOT . . . . . . . .    ----   -----       
+PORT . . . . . . . . . . .    ----   -----       
+PRECEDE. . . . . . . . . .    ----   -----       
+PROGRAM. . . . . . . . . .    ----   -----       
+PROGRAM1 . . . . . . . . .    ----   -----       
+PROGRAM_1. . . . . . . . .    ----   -----       
+PROJECT. . . . . . . . . .    ----   -----       
+PSOC . . . . . . . . . . .    ----   -----       
+PUBLICSONLY. . . . . . . .    ----   -----       
+RCB. . . . . . . . . . . .    ----   -----       
+REGISTERCOLORING . . . . .    ----   -----       
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE    23
+
+REGISTERFILE . . . . . . .    ----   -----       
+REGISTERFILEPATH . . . . .    ----   -----       
+RESERVESTRING. . . . . . .    ----   -----       
+RESTOREBREAKPOINTS . . . .    ----   -----       
+RESTOREFUNCTIONS . . . . .    ----   -----       
+RESTOREMEMORYDISPLAY . . .    ----   -----       
+RESTORESYSVW . . . . . . .    ----   -----       
+RESTORETOOLBOX . . . . . .    ----   -----       
+RESTORETRACEPOINTS . . . .    ----   -----       
+RESTOREWATCHPOINTS . . . .    ----   -----       
+ROMSIZE. . . . . . . . . .    ----   -----       
+RS232. . . . . . . . . . .    ----   -----       
+RTOS . . . . . . . . . . .    ----   -----       
+RUNDEBUGAFTERBUILD . . . .    ----   -----       
+RUNINDEPENDENT . . . . . .    ----   -----       
+RUNTOMAIN. . . . . . . . .    ----   -----       
+RUNUSERPROG1 . . . . . . .    ----   -----       
+RUNUSERPROG2 . . . . . . .    ----   -----       
+RVCTCODECONST. . . . . . .    ----   -----       
+RVCTOTHERDATA. . . . . . .    ----   -----       
+RVCTZI . . . . . . . . . .    ----   -----       
+RXB. . . . . . . . . . . .    ----   -----       
+S8051. . . . . . . . . . .    ----   -----       
+SCHEMAVERSION. . . . . . .    ----   -----       
+SELECTEDFORBATCHBUILD. . .    ----   -----       
+SFDFILE. . . . . . . . . .    ----   -----       
+SIMDLGDLL. . . . . . . . .    ----   -----       
+SIMDLGDLLARGUMENTS . . . .    ----   -----       
+SIMDLLARGUMENTS. . . . . .    ----   -----       
+SIMDLLNAME . . . . . . . .    ----   -----       
+SIMDLLS. . . . . . . . . .    ----   -----       
+SIMULATOR. . . . . . . . .    ----   -----       
+SIZE . . . . . . . . . . .    ----   -----       
+SIZESPEED. . . . . . . . .    ----   -----       
+SLE66AMISC . . . . . . . .    ----   -----       
+SLE66CMISC . . . . . . . .    ----   -----       
+SLE66LINKERMISC. . . . . .    ----   -----       
+SOFTWARE . . . . . . . . .    ----   -----       
+SOURCE . . . . . . . . . .    ----   -----       
+STACK. . . . . . . . . . .    ----   -----       
+STANDALONE . . . . . . . .    ----   -----       
+STARTADDRESS . . . . . . .    ----   -----       
+STARTUPFILE. . . . . . . .    ----   -----       
+STOPONEXITCODE . . . . . .    ----   -----       
+SVCSIDSTRING . . . . . . .    ----   -----       
+TARGET . . . . . . . . . .    ----   -----       
+TARGET51 . . . . . . . . .    ----   -----       
+TARGET51MISC . . . . . . .    ----   -----       
+TARGETCOMMONOPTION . . . .    ----   -----       
+TARGETDLGDLL . . . . . . .    ----   -----       
+TARGETDLGDLLARGUMENTS. . .    ----   -----       
+TARGETDLLARGUMENTS . . . .    ----   -----       
+TARGETDLLNAME. . . . . . .    ----   -----       
+TARGETDLLS . . . . . . . .    ----   -----       
+TARGETNAME . . . . . . . .    ----   -----       
+TARGETOPTION . . . . . . .    ----   -----       
+TARGETS. . . . . . . . . .    ----   -----       
+TARGETSELECTION. . . . . .    ----   -----       
+TARGETSTATUS . . . . . . .    ----   -----       
+TOOLSETNAME. . . . . . . .    ----   -----       
+TOOLSETNUMBER. . . . . . .    ----   -----       
+TP51 . . . . . . . . . . .    ----   -----       
+TYPE . . . . . . . . . . .    ----   -----       
+UAC6 . . . . . . . . . . .    ----   -----       
+UAREGS . . . . . . . . . .    ----   -----       
+UNDEFINE . . . . . . . . .    ----   -----       
+A51 MACRO ASSEMBLER  PROGRAM_1                                                            02/22/2023 18:20:09 PAGE    24
+
+UOCXRAM2 . . . . . . . . .    ----   -----       
+UPDATEFLASHBEFOREDEBUGGING    ----   -----       
+USEA251. . . . . . . . . .    ----   -----       
+USECASE. . . . . . . . . .    ----   -----       
+USECB. . . . . . . . . . .    ----   -----       
+USECPPCOMPILER . . . . . .    ----   -----       
+USEENV . . . . . . . . . .    ----   -----       
+USEEXTERNALTOOL. . . . . .    ----   -----       
+USEFILE. . . . . . . . . .    ----   -----       
+USEINTERRUPTVECTOR . . . .    ----   -----       
+USEL251. . . . . . . . . .    ----   -----       
+USEMEMORYFROMTARGET. . . .    ----   -----       
+USEMOD51 . . . . . . . . .    ----   -----       
+USEMPL . . . . . . . . . .    ----   -----       
+USEMULTIPLEDPTR. . . . . .    ----   -----       
+USEONCHIPARITHMETIC. . . .    ----   -----       
+USEONCHIPROM . . . . . . .    ----   -----       
+USEONCHIPXRAM. . . . . . .    ----   -----       
+USERCLASSES. . . . . . . .    ----   -----       
+USERPROG1DOS16MODE . . . .    ----   -----       
+USERPROG1NAME. . . . . . .    ----   -----       
+USERPROG2DOS16MODE . . . .    ----   -----       
+USERPROG2NAME. . . . . . .    ----   -----       
+USERSECTION. . . . . . . .    ----   -----       
+USESIMULATOR . . . . . . .    ----   -----       
+USESTANDARD. . . . . . . .    ----   -----       
+USETARGET. . . . . . . . .    ----   -----       
+USETARGETDLL . . . . . . .    ----   -----       
+USEXB. . . . . . . . . . .    ----   -----       
+USEXBS . . . . . . . . . .    ----   -----       
+UTILITIES. . . . . . . . .    ----   -----       
+UVISION. . . . . . . . . .    ----   -----       
+UVPROJ . . . . . . . . . .    ----   -----       
+VARIABLESINORDER . . . . .    ----   -----       
+VARIOUSCONTROLS. . . . . .    ----   -----       
+VENDOR . . . . . . . . . .    ----   -----       
+VERSION. . . . . . . . . .    ----   -----       
+WARNINGLEVEL . . . . . . .    ----   -----       
+XBANKS . . . . . . . . . .    ----   -----       
+XDATABASEADDRESS . . . . .    ----   -----       
+XDATAHOLD. . . . . . . . .    ----   -----       
+XDATASEGMENTNAME . . . . .    ----   -----       
+XRA. . . . . . . . . . . .    ----   -----       
+XRA512 . . . . . . . . . .    ----   -----       
+XRA513 . . . . . . . . . .    ----   -----       
+XRAM . . . . . . . . . . .    ----   -----       
+XSI. . . . . . . . . . . .    ----   -----       
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  1 WARNING(S), 401 ERROR(S)
